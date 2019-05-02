@@ -5,4 +5,4 @@ Usage :
     ./youtubeDL.py [option] url
 
 --son   : Télécharger juste le son ( youtube ou soundcloud)
---vidéo : Télécharger la vidéo (Youtube)
+--video : Télécharger la vidéo (Youtube)
