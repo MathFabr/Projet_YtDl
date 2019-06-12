@@ -9,11 +9,16 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("url", help="url de la vidéo à télécharger",
                     type=str)
-parser.add_argument("--son", help="url de la musique à télécharger", action="store_true")
-parser.add_argument("--video", help="url de la vidéo à télécharger", action="store_true")
+parser.add_argument('-s',"--son", help="url de la musique à télécharger", action="store_true")
+parser.add_argument('-v',"--video", help="url de la vidéo à télécharger", action="store_true")
+# parser.add_argument('-p',"--playlist",)
 args=parser.parse_args()
 
+
 if args.son:
+
+
+    
     class MyLogger(object):
         def debug(self, msg):
             pass
