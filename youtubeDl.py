@@ -53,8 +53,8 @@ if args.son:
         
         for element in os.listdir('.'):
             if element.endswith('.mp3'):
-                os.rename("%s"  % element, "/home/altins/Téléchargements/%s" % element)
-                print("Votre fichier à étais enregistrer dans votre dossier téléchargement")
+                os.rename("%s"  % element, "/home/mathieu/%s" % element)
+                print("Votre fichier à étais enregistrer dans votre dossier home")
         
         break
 
@@ -67,6 +67,6 @@ if args.video:
     print("vidéo bien télécharger, transfert en cours...")
     for element in os.listdir('.'):
             if element.endswith('.mkv'):
-                os.rename("%s"  % element, "/home/altins/Téléchargements/%s" % element)
-                print("Votre fichier à étais enregistrer dans votre dossier téléchargement")
+                os.rename("%s"  % element, "/home/mathieu/%s" % element)
+                print("Votre fichier à étais enregistrer dans votre dossier home")
 
