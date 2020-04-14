@@ -7,12 +7,15 @@ Clone le repository avec un git clone
 Python3 et Pip3 d'installer
 
 Installer ffmpeg:
+
 	sudo apt install ffmpeg
 
 Installer via pip3 la librairies youtube Dl
+
 	sudo -H pip3 install --upgrade youtube-dl
 
 Installer via pip3 argparse
+
 	sudo pip3 install argparse
 
 
