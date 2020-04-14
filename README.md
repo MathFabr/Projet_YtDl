@@ -1,22 +1,22 @@
 # Projet_YtDl
 
-Installation:
+##Installation:
 
-	Clone le repository avec un git clone
+Clone le repository avec un git clone
 
-	Python3 et Pip3 d'installer
+Python3 et Pip3 d'installer
 
-	Installer ffmpeg:
-		 ```sudo apt install ffmpeg```
+Installer ffmpeg:
+	sudo apt install ffmpeg
 
-	Installer via pip3 la librairies youtube Dl
-		```sudo -H pip3 install --upgrade youtube-dl```
+Installer via pip3 la librairies youtube Dl
+	sudo -H pip3 install --upgrade youtube-dl
 
-	Installer via pip3 argparse
-		```sudo pip3 install argparse```
+Installer via pip3 argparse
+	sudo pip3 install argparse
 
 
-Usage :
+##Usage :
 
     ./youtubeDL.py [option] url
 
