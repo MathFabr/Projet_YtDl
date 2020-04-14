@@ -1,6 +1,6 @@
 # Projet_YtDl
 
-##Installation:
+## Installation:
 
 Clone le repository avec un git clone
 
@@ -16,7 +16,7 @@ Installer via pip3 argparse
 	sudo pip3 install argparse
 
 
-##Usage :
+## Usage :
 
     ./youtubeDL.py [option] url
 
